@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+    <div class="container">
+        
+        <div class="bloc">
+            <button @click="button1" class="button">{{matn1}}</button>
+            <button @click="button2" class="button">{{matn2}}</button>
+            <button @click="button3" class="button">{{matn3}}</button>
+        </div>
+        
+        <img :src="rasm" alt="" class="rasm">
+        
+    </div>
+
+    <script src="https://unpkg.com/vue@3"></script>
+    <script src="./script/script.js"></script>
+</body>
+
+</html>
